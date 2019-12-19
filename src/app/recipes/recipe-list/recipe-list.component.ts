@@ -8,6 +8,7 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('Test', 'Test Description', 'https://klopotenko.com/wp-content/uploads/2018/03/jajca-benedikt_siteWeb.jpg'),
     new Recipe('Test', 'Test Description', 'https://klopotenko.com/wp-content/uploads/2018/03/jajca-benedikt_siteWeb.jpg')
   ];
 
